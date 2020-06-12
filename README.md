@@ -1,6 +1,6 @@
 # Curso-HTML-CSS-JS
 
-# Sebastian Ruiz
+## Sebastian Ruiz
 
 # Estudiando ADSI V Trimestre 
 
@@ -12,6 +12,6 @@
 
 # Correos: jsruiz7411@misena.edu.co   sebasruiz97@gmail.com
 
-# Teléfono :3115133173
+## Teléfono:3115133173
 
 # Conocimientos: HTML,CSS,Javascript,PHP,MySql, SQl Server,Oracle,Git, GitHub y C++.

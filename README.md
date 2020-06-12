@@ -2,16 +2,16 @@
 
 ## Sebastian Ruiz
 
-# Estudiando ADSI V Trimestre 
+### Estudiando ADSI V Trimestre 
 
-# SENA 
+### SENA 
 
-# CEET
+### CEET
 
-# 2020
+### 2020
 
-# Correos: jsruiz7411@misena.edu.co   sebasruiz97@gmail.com
+### Correos: jsruiz7411@misena.edu.co   sebasruiz97@gmail.com
 
-## Teléfono:3115133173
+### Teléfono:3115133173
 
-# Conocimientos: HTML,CSS,Javascript,PHP,MySql, SQl Server,Oracle,Git, GitHub y C++.
+### Aprender HTML,CSS y JavaScript para usarlo en los proyectos de desarrollos web a la largo plazo.

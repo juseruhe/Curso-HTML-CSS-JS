@@ -2,13 +2,9 @@
 
 ## Sebastian Ruiz
 
-### Estudiando ADSI V Trimestre 
+### Estudiando Tecnologo en ADSI V Trimestre 
 
-### SENA 
-
-### CEET
-
-### 2020
+### SENA CEET 2019-2021
 
 ### Correos: jsruiz7411@misena.edu.co   sebasruiz97@gmail.com
 

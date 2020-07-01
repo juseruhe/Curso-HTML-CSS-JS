@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap con Slider</title>
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../Sliders/SSS-master/sss/sss.css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="../Sliders/SSS-master/sss/sss.js"> </script>
+<script src="../Sliders/SSS-master/sss/sss.min.js"/> </script>
+</head>
+<body>
+    
+<div class="row">
+    <div class="col-xs-12 col-sm-8   col-md-4 col-lg-3 col-xl-2 bg-warning text-white font-italic "  > <button class="bg-dark bg-white">Inicio</button></div>
+    <div class="col-xs-12  col-sm-4 col-md-4 col-lg-3 col-xl-2 bg-success text-white font-italic " > <button class="bg-dark bg-white">Servicios</button></div>
+    <div class=" col-xs-12  col-sm-8 col-md-4 col-lg-3 col-xl-2 bg-danger text-white font-italic " ><button class="bg-dark bg-white">Productos</button></div>
+    <div class=" col-xs-12  col-sm-4  col-md-4 col-lg-3 col-xl-2  bg-info text-white font-italic " ><button class="bg-dark bg-white">Contactar</button></div>
+    <div class=" col-xs-12  col-sm-8 col-md-4 col-lg-6  col-xl-2 bg-success text-white font-italic " ><button class="bg-dark bg-white">Buena</button></div>
+    <div class=" col-xs-12  col-sm-4 col-md-4  col-lg-6 col-xl-2 bg-warning text-white font-italic " ><button class="bg-dark bg-white">Eso</button></div>
+    
+   
+
+    </div>
+
+    <div class="slider">
+    
+        <img src="../Redes Sociales/Imagenes/america.jpg" alt="america"/>
+        <img src="../Redes Sociales/Imagenes/atlante.jpg" alt="atlante"/>
+        <img src="../Redes Sociales/Imagenes/facebook.png" alt="facebook"/>
+        <img src="../Redes Sociales/Imagenes/telegram.png" alt="telegram"/>
+        
+        </div>
+
+        <script> $('.slider').sss({
+            slideShow : true, // Set to false to prevent SSS from automatically animating.startOn : 0, // Slide to display first. Uses array notation (0 = first slide).transition : 400, // Length (in milliseconds) of the fade transition.speed : 3500, // Slideshow speed in milliseconds.showNav : true // Set to false to hide navigation arrows.
+            });</script>
+</body>
+</html>

@@ -1,5 +1,5 @@
 body{
-    background-color: #d9d9d9;
+    background:linear-gradient(rgb(207, 221, 10) ,rgb(16, 13, 187),rgb(163, 6, 6));
     color:darkblue;
     font-family: tahoma;
     margin:0px;
@@ -48,4 +48,30 @@ address{
     margin-top:10px;
     padding-top: 10px;
     border-top:thin dotted;
+   
+}
+
+.box{
+border-radius:30px;
+width:90%;
+background: white;
+
+}
+
+#home {
+    padding:10px;
+}
+
+#domicilios {
+    padding-left:100px;
+}
+
+#formulario {
+    padding:50px;
+    height:200px;
+}
+
+#redes {
+    padding:70px;
+    
 }

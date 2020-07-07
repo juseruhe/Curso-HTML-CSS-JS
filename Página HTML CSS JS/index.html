@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con CSS y Bootstrap</title>
+    <link rel="stylesheet" href="estilos.css"/>
+    <link rel="stylesheet" href="../Sliders/SSS-master/sss/sss.css"/>
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css"/>
+</head>
+<body>
+    
+    
+        <div class="slider">
+        
+        <img src="../Redes Sociales/Imagenes/america.jpg" alt="america"/>
+        <img src="../Redes Sociales/Imagenes/atlante.jpg" alt="atlante"/>
+        <img src="../Redes Sociales/Imagenes/facebook.png" alt="facebook"/>
+        <img src="../Redes Sociales/Imagenes/telegram.png" alt="telegram"/>
+        </div>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <script src="../Sliders/SSS-master/sss/sss.js"> </script>
+        <script src="../Sliders/SSS-master/sss/sss.min.js"/> </script>
+
+    <script> $('.slider').sss({
+        slideShow : true, // Set to false to prevent SSS from automatically animating.startOn : 0, // Slide to display first. Uses array notation (0 = first slide).transition : 400, // Length (in milliseconds) of the fade transition.speed : 3500, // Slideshow speed in milliseconds.showNav : true // Set to false to hide navigation arrows.
+        });</script>
+
+
+
+</body>
+</html>

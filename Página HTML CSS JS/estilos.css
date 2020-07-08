@@ -1,0 +1,147 @@
+html,body{background:rgb(3, 2, 43);margin:0;}
+.content{color:rgb(10, 2, 36);font:12px/1.4 "tahoma",tahoma;margin:20px auto;max-width:700px}
+h1{font-size:12px;font-weight:normal;color:rgb(209, 42, 42);margin:0;}
+p{margin:0 0 20px; color:darkred; font-size:30px; font-family:courier new;}
+a {color:#07501f;text-decoration:none;}
+.galleria-info-description a {color: rgb(5, 128, 41);}
+.cred{margin-top:20px;font-size:11px;}
+
+/* Gallery measures that will be applied */
+.galleria {
+    height:600px;    /* defines a static gallery height */
+    max-width:900px; /* defines a responsive width */
+    background: rgb(17, 161, 218);
+    color: blueviolet;
+}
+
+
+header {
+    background: rgb(11, 84, 126);
+    width: 1350px;
+    height: 200px;
+}
+
+header ul.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    right:-300px;
+
+}
+
+header ul.menu li {
+    list-style-type: none;
+    
+}
+
+header img{
+    width: 200px;
+    height:200px;
+    position: relative;
+    top:-65px;
+}
+
+
+header ul.menu li a{
+    color:rgb(197, 212, 202);
+    background: rgb(190, 46, 10);
+    margin:30px;
+    position: relative;
+    bottom: -150px;
+    font-size: 25px;
+    border:inset 5px rgb(51, 40, 201);
+    font-family: tahoma;
+    
+}
+
+
+header ul.menu li a:hover{
+    background: rgb(8, 17, 11);
+    color:rgb(157, 206, 93);
+    font-family:impact;
+    text-decoration: line-through;
+    margin:5px;
+    font-size: 30px;
+}
+
+
+header ul.menu li a:active{
+    background: rgb(31, 2, 2);
+    color:rgb(139, 136, 82);
+    font-family:georgia;
+    text-decoration:overline;
+    margin:3px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+form.formulario{
+    background:rgb(14, 65, 18);
+    height:700px;
+    width:600px;
+    text-align: center;
+    position: relative;
+    right:-400px;
+    font-family: consolas ;
+}
+
+
+form.formulario label{
+    
+    color:#d4e2d9;
+    font-size:40px;
+    font-family: consolas;
+}
+
+
+form.formulario p{
+    color:#d4e2d9;
+    font-size:25px;
+}
+
+form.formulario input[type=text], form.formulario input[type=email], form.formulario input[type=password],form.formulario input[type=number]
+{
+    background: rgb(45, 97, 238);
+    color:rgb(230, 213, 217);
+    font-family:consolas;
+    
+}
+
+
+
+form.formulario input[type=password]{
+    position: relative;
+    right:-100px;
+}
+
+form.formulario input[type=submit]{
+    background: rgb(228, 216, 216);
+    color:rgb(80, 218, 12);
+    position: relative;
+    bottom:-90px;
+    left:-100px;
+    width:200px;
+    height: 50px;
+}
+
+form.formulario input[type=submit]:hover{
+   background: rgba(23, 190, 98, 0.76);
+   color: rgb(232, 221, 236);
+   border: inset 5px rgb(182, 219, 16);
+   margin-bottom:10px;
+   text-decoration:line-through;
+   font-size:30px;
+   font-family:arial;
+}
+
+form.formulario input[type=submit]:active{
+    background: rgba(67, 65, 71, 0.76);
+    color: rgb(2, 15, 1);
+    text-decoration: underline;
+    
+ }

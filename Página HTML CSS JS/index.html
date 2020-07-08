@@ -3,31 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página con CSS y Bootstrap</title>
+    <title>Página Web</title>
     <link rel="stylesheet" href="estilos.css"/>
-    <link rel="stylesheet" href="../Sliders/SSS-master/sss/sss.css"/>
     <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css"/>
+    <link rel="icon" href="Imagenes/jsrhoficial2.jpg"/>
+
+
+<header>
+<ul class="menu">
+<li> <a href="#" > Registrarse </a></li>
+<li> <a href="#" > Iniciar Sesión </a></li>
+<li> <a href="#" > Productos </a></li>
+<li> <a href="#" > Servicios </a></li>
+
+</ul>
+
+<img src="Imagenes/jsrhoficial2.jpg"/>
+
+</header>
+
+
+
+
 </head>
 <body>
-    
-    
-        <div class="slider">
-        
-        <img src="../Redes Sociales/Imagenes/america.jpg" alt="america"/>
-        <img src="../Redes Sociales/Imagenes/atlante.jpg" alt="atlante"/>
-        <img src="../Redes Sociales/Imagenes/facebook.png" alt="facebook"/>
-        <img src="../Redes Sociales/Imagenes/telegram.png" alt="telegram"/>
+    <div class="content">
+        <h1>Galeria de Equipos de Fútbol</h1>
+        <p>Conoce los escudos de Fútbol.</p>
+  
+        <div class="galleria">
+            <a href="Imagenes/nacional.JPG">
+                <img src="Imagenes/nacional.JPG"
+                     data-title="Calm before the storm">
+            </a>
+            <a href="Imagenes/millonarios.JPG">
+                <img src="Imagenes/millonarios.JPG"
+                     data-description="by &lt;a href=&quot;https://unsplash.com/photos/vc3ZOCf5BN8&quot;&gt;davide ragusa&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com&quot;&gt;Unsplash&lt;/a&gt;"
+                     data-title="Wooden gate at the beach">
+            </a>
+            <a href="Imagenes/america.JPG">
+                <img src="Imagenes/america.JPG"
+                     data-description="by &lt;a href=&quot;https://unsplash.com/photos/znM0ujn2RUA&quot;&gt;Shane Colella&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com&quot;&gt;Unsplash&lt;/a&gt;"
+                     data-title="Prickly orange needles">
+            </a>
+            <a href="Imagenes/santafe.JPG">
+                <img src="Imagenes/santafe.JPG"
+                     data-description="by &lt;a href=&quot;https://unsplash.com/photos/5QyPh6O9tfw&quot;&gt;Luís Perdigão&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com&quot;&gt;Unsplash&lt;/a&gt;"
+                     data-title="Bridge To Anywhere">
+            </a>
+          
         </div>
-
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-        <script src="../Sliders/SSS-master/sss/sss.js"> </script>
-        <script src="../Sliders/SSS-master/sss/sss.min.js"/> </script>
-
-    <script> $('.slider').sss({
-        slideShow : true, // Set to false to prevent SSS from automatically animating.startOn : 0, // Slide to display first. Uses array notation (0 = first slide).transition : 400, // Length (in milliseconds) of the fade transition.speed : 3500, // Slideshow speed in milliseconds.showNav : true // Set to false to hide navigation arrows.
-        });</script>
+    </div>
 
 
+<form class="formulario" method="post" name="form1" onsubmit="return validarforma(this)">
+    <label> Formulario </label>
+  <p> Escribe Nombre: </p>  <input type="text" onfocus="this.select()" />
+  <p> Escribe Apellido: </p>  <input type="text" onfocus="this.select()" />
+  <p> Escribe Teléfono: </p>  <input type="number" onfocus="this.select()"  />
+  <p> Escribe Correo: </p>  <input type="email" onfocus="this.select()"  />
+  <p> Escribe Contraseña: </p>  <input type="password" onfocus="this.select()"  />
+  
+  <input type="submit" value="Enviar"/>
+                           
 
+</form>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+
+    <!-- load Galleria -->
+    <script src="galleria.js"></script>
+
+<script src="codigo.js"> </script>
 </body>
 </html>

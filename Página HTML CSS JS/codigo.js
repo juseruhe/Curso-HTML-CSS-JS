@@ -9,8 +9,11 @@ $(function() {
 
 
 function validar(forma){
+    // Imprimiendo datos de Inicio
     console.log(" ");
     console.log("Validando Formulario........................");
+
+// Asignando Variables
  var usuario = forma.usuario;
  var apellido = forma.apellido;
  var telefono = forma.telefono;
@@ -21,16 +24,16 @@ function validar(forma){
 
 
 
-
+// Imprime los datos Insertados
  console.log("El Usuario es  " + usuario.value+" ,el Apellido es " + apellido.value+ 
  "  ,el Teléfono es  " + telefono.value + " ,el Correo es  " + correo.value+
  " ,la Contrasena es  " + contrasena.value+ "  .\n"+ 
  "Participando Sorteo de Camiseta de América de Cali");
 
 
-
- if(usuario.value=="" || usuario.value=="Escribe Nombres"
- ){
+// Si no ingresa datos/ focus y alert
+ if(usuario.value=="" || usuario.value=="Escribe Nombres")
+ {
  alert("Debe Escribir un nombre");
  usuario.focus();
  usuario.select();
@@ -43,7 +46,7 @@ function validar(forma){
     apellido.select();
     }
 
-    else if (telefono.value=="" || telefono.value=="Escribe Apellidos")
+    else if (telefono.value=="" || telefono.value=="Escribe Telefono")
     {
        alert("Debe Escribir un Teléfono");
        telefono.focus();
@@ -51,7 +54,7 @@ function validar(forma){
        }
 
 
-       else if (correo.value=="" || correo.value=="Escribe Apellidos")
+       else if (correo.value=="" || correo.value=="Escribe Correo")
  {
     alert("Debe Escribir un Correo");
     correo.focus();
@@ -59,7 +62,7 @@ function validar(forma){
     }
 
 
-    else if (contrasena.value=="" || contrasena.value=="Escribe Apellidos")
+    else if (contrasena.value=="" || contrasena.value=="Escribe Contrasena")
  {
     alert("Debe Escribir una Contraseña");
     contrasena.focus();
@@ -77,7 +80,7 @@ function validar(forma){
 
 
 
-
+// Equipos chequeados y no chequeados
 var equipo = forma.equipo;
 var checkseleccionado= false;
 

@@ -7,67 +7,167 @@
     <link rel="stylesheet" href="estilos.css"/>
     <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css"/>
     <link rel="icon" href="Imagenes/jsrhoficial2.jpg"/>
-
-
-<header>
-<ul class="menu">
-<li> <a href="#" > Registrarse </a></li>
-<li> <a href="#" > Iniciar Sesión </a></li>
-<li> <a href="#" > Productos </a></li>
-<li> <a href="#" > Servicios </a></li>
-
-</ul>
-
-<img src="Imagenes/jsrhoficial2.jpg"/>
-
-</header>
-
-
-
-
 </head>
+
 <body>
-    <div class="content">
-        <h1>Galeria de Equipos de Fútbol</h1>
-        <p>Conoce los escudos de Fútbol.</p>
-  
-        <div class="galleria">
-            <a href="Imagenes/nacional.JPG">
-                <img src="Imagenes/nacional.JPG"
-                     data-title="Calm before the storm">
-            </a>
-            <a href="Imagenes/millonarios.JPG">
-                <img src="Imagenes/millonarios.JPG"
-                     data-description="by &lt;a href=&quot;https://unsplash.com/photos/vc3ZOCf5BN8&quot;&gt;davide ragusa&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com&quot;&gt;Unsplash&lt;/a&gt;"
-                     data-title="Wooden gate at the beach">
-            </a>
-            <a href="Imagenes/america.JPG">
-                <img src="Imagenes/america.JPG"
-                     data-description="by &lt;a href=&quot;https://unsplash.com/photos/znM0ujn2RUA&quot;&gt;Shane Colella&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com&quot;&gt;Unsplash&lt;/a&gt;"
-                     data-title="Prickly orange needles">
-            </a>
-            <a href="Imagenes/santafe.JPG">
-                <img src="Imagenes/santafe.JPG"
-                     data-description="by &lt;a href=&quot;https://unsplash.com/photos/5QyPh6O9tfw&quot;&gt;Luís Perdigão&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com&quot;&gt;Unsplash&lt;/a&gt;"
-                     data-title="Bridge To Anywhere">
-            </a>
-          
-        </div>
+
+    
+<header>
+
+    <div class="row">
+ <div class="col-xs-12 col-sm-8   col-md-4 col-lg-3 col-xl-2 bg-primary  "  > 
+     
+    <img  src="Imagenes/jsrhoficial2.jpg"/>
+    
     </div>
 
 
-<form class="formulario" method="post" name="form1" onsubmit="return validarforma(this)">
+
+    <div class="col-xs-12  col-sm-4 col-md-4 col-lg-3 col-xl-2 bg-success  " > 
+<a href="#"> Noticias </a> 
+</div>
+
+<div class=" col-xs-12  col-sm-8 col-md-4 col-lg-3 col-xl-2 bg-danger " >
+
+    <a href="#"> Equipos  </a> 
+
+            
+</div>
+        <div class=" col-xs-12  col-sm-4  col-md-4 col-lg-3 col-xl-2  bg-info " >
+            
+            <a href="#"> Registrarse </a> 
+            
+            </div>
+
+
+        <div class=" col-xs-12  col-sm-8 col-md-4 col-lg-6  col-xl-2 bg-dark " >
+
+            <a href="#"> Iniciar Sesión </a> 
+
+        </div>
+
+
+
+        <div class=" col-xs-12  col-sm-4 col-md-4  col-lg-6 col-xl-2 bg-warning text-white font-italic " >
+            
+            <a href="#"> Anuncios </a>   
+        </div>
+
+
+        </header>
+        
+            
+
+       
+
+
+
+
+
+
+
+ 
+        <h1> Galería  de Equipos Colombianos</h1>
+    <div class=" col-xs-12  col-sm-12 col-md-12  col-lg-12 col-xl-12 bg-secondary">
+    <div class="galleria">
+
+      
+
+        <a href="Imagenes/nacional.JPG">
+            <img src="Imagenes/nacional.JPG"
+                 data-title="Atlético Nacional">
+                </a>
+        
+                <a href="Imagenes/millonarios.JPG">
+            <img src="Imagenes/millonarios.JPG"
+                 data-title="Millonarios">
+        </a>
+    
+        <a href="Imagenes/america.JPG">
+            <img src="Imagenes/america.JPG"
+                 data-title="América">
+        </a>
+    
+        <a href="Imagenes/santafe.JPG">
+            <img src="Imagenes/santafe.JPG"
+                 data-title="Santafé">
+        </a>
+
+      </div>
+        </div>
+
+
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" >
+<form class="formulario"
+name="form1"
+ action="recurso.html" 
+ method="POST" 
+ onsubmit="return validar(this)">
     <label> Formulario </label>
-  <p> Escribe Nombre: </p>  <input type="text" onfocus="this.select()" />
-  <p> Escribe Apellido: </p>  <input type="text" onfocus="this.select()" />
-  <p> Escribe Teléfono: </p>  <input type="number" onfocus="this.select()"  />
-  <p> Escribe Correo: </p>  <input type="email" onfocus="this.select()"  />
-  <p> Escribe Contraseña: </p>  <input type="password" onfocus="this.select()"  />
-  
+  <p> Escribe Nombre: </p>  <input type="text" name="usuario" />
+  <p> Escribe Apellido: </p>  <input type="text" name="apellido"  />
+  <p> Escribe Teléfono: </p>  <input type="number" name="telefono"   />
+  <p> Escribe Correo: </p>  <input type="email"  name="correo" />
+  <p> Escribe Contraseña: </p>  <input type="password" name="contrasena"  />
+  <p> Equipo Favorito: </p>  América <input type="checkbox" name="equipo" value="america" />
+ Millonarios <input type="checkbox" name="equipo" value="millonarios"  />
+ Atlético Nacional<input type="checkbox" name="equipo" value="nacional"  />
+Santafé<input type="checkbox"  name="equipo" value="santafe" />
   <input type="submit" value="Enviar"/>
                            
 
 </form>
+</div>
+</div>
+
+
+
+<div class="noticias">
+<h2> James se lesiona en la rodilla izquierda y regresa a España</h2>
+<article> James Rodríguez se lesionó en el último entrenamiento de Colombia y encendió todas las alarmas 
+en el Real Madrid. El jugador se hizo daño en la rodilla izquierda y, 
+a la espera de lo que determinen las pruebas que se le realicen este viernes, 
+podría tener un esguince en el ligamento interno de su rodilla izquierda. 
+Queda por comprobar el grado de ese posible esguince y revisar en dichas pruebas
+ que no haya más daños en la articulación para saber con más exactitud el tiempo de baja.
+ El jugador regresará en las próximas horas a España para ponerse en manos de los servicios médicos del Real Madrid. 
+ En principio, y a falta de las pruebas que determinen el alcance exacto de la lesión,
+  no parece que se trate de una lesión grave, pero sí lo suficiente como para que James abandone 
+la concentración de Colombia y regrese a Madrid, 
+según ha podido saber MARCA de fuentes de la Federación Colombiana.
+
+</article>
+
+<img src="Imagenes/jameslesionado.JPG"/>
+
+</div>
+
+
+<div class="premios">
+    <h2> Ganaté la camiseta de América de Cali</h2>
+    <p>
+        Registraté y Participa en el sorteo de la Camiseta de América 
+        
+    </p>
+    <img src="Imagenes/camiamerica.JPG"/>
+    
+    </div>
+
+
+
+
+
+
+
+
+<footer>
+    <a href="https://es-la.facebook.com/" target="_blank"> Facebook   <img src="../Redes Sociales/Imagenes/facebook.png" alt="facebook" width=50 height=50> </img>  </a> 
+    <a href="https://www.instagram.com/?hl=es-la" target="_blank"> Instagram <img src="../Redes Sociales/Imagenes/instagram.jpg" alt="instagram" width=50 height=50> </img> </a> 
+    <a href="https://twitter.com/login" target="_blank"> Twitter  <img src="../Redes Sociales/Imagenes/twitter.png" alt="twitter" width=50 height=50> </a>  </img>
+    <a href="https://web.telegram.org/#/login" target="_blank"> Telegram <img src="../Redes Sociales/Imagenes/telegram.png" alt="telegram" width=50 height=50>  </img> </a> 
+</footer>
+
+
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>

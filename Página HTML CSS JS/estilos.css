@@ -1,40 +1,65 @@
-html,body{background:rgb(3, 2, 43);margin:0;}
-.content{color:rgb(10, 2, 36);font:12px/1.4 "tahoma",tahoma;margin:20px auto;max-width:700px}
-h1{font-size:12px;font-weight:normal;color:rgb(209, 42, 42);margin:0;}
-p{margin:0 0 20px; color:darkred; font-size:30px; font-family:courier new;}
-a {color:#07501f;text-decoration:none;}
-.galleria-info-description a {color: rgb(5, 128, 41);}
-.cred{margin-top:20px;font-size:11px;}
+html,body{background:linear-gradient(rgb(146, 203, 241),rgb(15, 26, 180),rgb(2, 1, 56));
+    color: beige;
+    width:1280px;
+    height:700px;
+    margin:0;}
+
+h1 {
+    color:rgb(11, 124, 16);
+  position: relative;
+  bottom:-250px;
+  text-align: center;
+  font-family: forte;
+}
+
+header .row div a {
+    font-family:agency fb;
+}
+
+
+
+
+header .row div a:hover {
+    font-family:gabriola;
+    color:black;
+    text-decoration:overline;
+}
+
+
+header .row div a {
+    font-family:agency fb;
+}
+
+
+
 
 /* Gallery measures that will be applied */
 .galleria {
-    height:600px;    /* defines a static gallery height */
-    max-width:900px; /* defines a responsive width */
-    background: rgb(17, 161, 218);
-    color: blueviolet;
+    height:400px;    /* defines a static gallery height */
+    max-width:400px; /* defines a responsive width */
+    background: rgb(51, 87, 3);
+    color: rgb(7, 7, 7);
+    text-align: center;
+    margin-bottom:50px;
+    margin-top:300px;
+    position: relative;
+    right:-500px;
+
+    
+    
+    
 }
+
 
 
 
 header {
-    background: rgb(11, 84, 126);
+   
     width: 1350px;
     height: 200px;
 }
 
-header ul.menu{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    position: relative;
-    right:-300px;
 
-}
-
-header ul.menu li {
-    list-style-type: none;
-    
-}
 
 header img{
     width: 200px;
@@ -43,38 +68,14 @@ header img{
     top:-65px;
 }
 
-
-header ul.menu li a{
-    color:rgb(197, 212, 202);
-    background: rgb(190, 46, 10);
-    margin:30px;
-    position: relative;
-    bottom: -150px;
-    font-size: 25px;
-    border:inset 5px rgb(51, 40, 201);
-    font-family: tahoma;
-    
+header .row a{
+font-size: 30px;
+color: rgb(106, 22, 214);
+font-family:trebuchet MS;
 }
 
 
-header ul.menu li a:hover{
-    background: rgb(8, 17, 11);
-    color:rgb(157, 206, 93);
-    font-family:impact;
-    text-decoration: line-through;
-    margin:5px;
-    font-size: 30px;
-}
 
-
-header ul.menu li a:active{
-    background: rgb(31, 2, 2);
-    color:rgb(139, 136, 82);
-    font-family:georgia;
-    text-decoration:overline;
-    margin:3px;
-    font-size: 30px;
-}
 
 
 
@@ -84,10 +85,12 @@ header ul.menu li a:active{
 form.formulario{
     background:rgb(14, 65, 18);
     height:700px;
-    width:600px;
-    text-align: center;
+    width:500px;
+    color:beige;
     position: relative;
     right:-400px;
+    text-align: center;
+    bottom:-300px;
     font-family: consolas ;
 }
 
@@ -115,17 +118,14 @@ form.formulario input[type=text], form.formulario input[type=email], form.formul
 
 
 
-form.formulario input[type=password]{
-    position: relative;
-    right:-100px;
-}
+
 
 form.formulario input[type=submit]{
     background: rgb(228, 216, 216);
     color:rgb(80, 218, 12);
     position: relative;
     bottom:-90px;
-    left:-100px;
+    
     width:200px;
     height: 50px;
 }
@@ -145,4 +145,87 @@ form.formulario input[type=submit]:active{
     color: rgb(2, 15, 1);
     text-decoration: underline;
     
+ }
+
+ form.formulario input[type=checkbox]{
+     margin-left:5px;
+ }
+ 
+footer{
+    background:rgb(230, 10, 10);
+    position: relative;
+     bottom:-600px;
+     right:-120px;
+     
+}
+
+footer a {
+
+color:rgb(14, 238, 44);
+text-decoration: none;
+font-family:papyrus;
+}
+
+footer a:hover{
+    color:rgb(214, 211, 12);
+    font-family: informal roman;
+    font-size:30px;
+}
+
+ footer a img{
+     width:100px;
+     height:50px;
+     margin:30px;
+     
+ }
+
+
+ .noticias {
+background: rgb(98, 99, 96);
+color:rgb(60, 13, 170);
+width:800px;
+height:750px;
+position: relative;
+right:-300px;
+bottom:-400px;
+font-family:lucida calligraphy;
+text-align: center;
+ }
+
+ .noticias h2{
+     font-weight: bolder;
+     text-transform: uppercase;
+     font-size:40px;
+     
+ }
+
+ .noticias article{
+     padding:16px;
+     font-size:15px;
+     color:rgb(60, 13, 170);
+     text-transform: capitalize;
+ }
+
+
+ .premios{
+     background: linear-gradient(rgb(172, 102, 102),rgb(230, 11, 11),rgb(56, 1, 1));
+     color:white;
+     font-family: curlz mt;
+     position: relative;
+     bottom: -480px;
+     right:-400px;
+     width: 600px;
+     height:550px;
+     text-align: center;
+ }
+ 
+ .premios h2{
+     font-size:40px;
+     font-weight: bold;
+     text-transform: uppercase;
+ }
+
+ .premios p{
+     font-size:25px;
+     text-transform: capitalize;
  }
